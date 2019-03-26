@@ -1,0 +1,4 @@
+.blue {
+	color: var(--color-blue);
+	@include display-4();
+}

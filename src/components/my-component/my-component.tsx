@@ -3,10 +3,7 @@ import { format } from '../../utils/utils';
 
 @Component({
 	tag: 'my-component',
-	styleUrls: [
-		'../../globals/variables.css',
-		'my-component.css'
-	],
+	styleUrl: 'my-component.scss',
 	shadow: true
 })
 export class MyComponent {
@@ -31,7 +28,7 @@ export class MyComponent {
 
 	render() {
 		return (
-			<div class="blue">Hello, World! I'm {this.getText()}</div>
+			<div class="display-4 blue">Hello, World! I'm {this.getText()}</div>
 		)
 	}
 }
