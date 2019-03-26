@@ -1,0 +1,9 @@
+:host {
+	--display-12: {
+		color: purple;
+	}
+}
+
+div {
+	@apply --display-12;
+}
